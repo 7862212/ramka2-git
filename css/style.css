@@ -3,7 +3,7 @@
 	margin: 0 auto;
 }
 
-div{
+.ramka{
 	padding: 25px 50px;
 	background:
 	url(../img/left-top02.png) left top no-repeat, /* левый угол верх */
