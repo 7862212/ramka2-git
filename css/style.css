@@ -1,0 +1,21 @@
+.wrapper{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+div{
+	padding: 25px 50px;
+	background:
+	url(../img/left-top02.png) left top no-repeat, /* левый угол верх */
+	url(../img/left-down02.png) left bottom no-repeat, /* левый угол низ */
+	url(../img/right-bottom02.png) right bottom no-repeat, /* правый угол низ */
+	url(../img/right-up02.png) right top no-repeat, /* правый угол верх */
+	url(../img/left-middle02.png) left repeat-y, /* вертикаль лево */
+	url(../img/right-middle02.png) right repeat-y, /*вертикаль право */
+	url(../img/top-mid02.png) bottom repeat-x, /* горизонт верх */
+	url(../img/bottom-mid02.png) top repeat-x; /* горизонт низ */
+}
+
+p{
+	font-size: 20px;
+}
